@@ -18,6 +18,7 @@ Para cada pregunta debes:
 Nota: Responde 5 de las 9 preguntas (en función a lo indicado en el examen).
 
 
+
 ---
 
 ## Pregunta 1
@@ -30,7 +31,9 @@ final double PERSIANA_CERRADA = 0.6;
 ```
 
 ¿Qué observas en este código?
-Bueno en este codigo se observa la declaracion de variables estaticos de tipo double. En java para cuadno vas a usar una variable que no se va cambiar usas final y el nombre de la variable se hace en mayuscula y si mas de una palabra se separa con un guillon bajo.
+Bueno en este codigo se observa la declaracion de variables estaticos de tipo double. En java para cuadno vas a usar una variable que no se va cambiar usas final y el nombre de la variable se hace en mayuscula y si mas de una palabra se separa con un guillon bajo.Pero en esta declaracion se observa que los nombres de las variables no estan bien nombradas por que se puede crear confusion. Por que un poco mas adelante del desarollo vamos hay que unas variables de String que vamos a necesitar que normalmente se tendrian que nombrar como asi. 
+Entonces corrigiendolo yo pondria **final double PROBABILIDAD_PERSIANA_ABIERTA = 0.7;** , **final double PROBABILIDAD_PERSIANA_CERRADA = 0.6;**
+                  
 
 
 ---
