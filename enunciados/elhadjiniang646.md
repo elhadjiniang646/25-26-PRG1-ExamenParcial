@@ -30,6 +30,8 @@ final double PERSIANA_CERRADA = 0.6;
 ```
 
 ¿Qué observas en este código?
+Bueno en este codigo se observa la declaracion de variables estaticos de tipo double. En java para cuadno vas a usar una variable que no se va cambiar usas final y el nombre de la variable se hace en mayuscula y si mas de una palabra se separa con un guillon bajo.
+
 
 ---
 
