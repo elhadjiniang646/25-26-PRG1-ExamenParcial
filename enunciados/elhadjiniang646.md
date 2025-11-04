@@ -107,7 +107,12 @@ class Edificio {
 ```
 
 ¿Qué observas en este código?
-
+Aqui se observa la declaracion de la clase Edificio que esta bien declarada con la primera letra en mayuscula y luego el la clase main igualmente bien declarad. Pero aqui se observa un eroor que en llave de sobra. Seguramente esta por error.
+Normañmente deberia ser // class Edificio {
+    public static void main(String[] args) {
+        // ...
+        };
+    };
 ---
 
 ## Pregunta 6
