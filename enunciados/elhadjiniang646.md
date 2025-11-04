@@ -57,6 +57,7 @@ for (int i = 0; i <= horasTotales; i++) {
 
 ¿Qué observas en este código?
 
+
 ---
 
 ## Pregunta 3
@@ -72,7 +73,9 @@ for (int piso = 1; piso < 7; piso++) {
 ```
 
 ¿Qué observas en este código?
-
+En este bloque de codigo se observa que hay un bucle dentro de otro  y un System.out.println para imprimir el escena dependiendo de lo que occura en base a las probabilidades.El primer error que se detecta es el magic number, si derrepente de pone 7 puden haber confusiones y no saber de donde viene entonces para no crear confudiones seria mas adecuado declarar una variabl estatico tipo int que se llame **NUMERO_PISOS** y asi la modificacion del codigo se podra hacer correctamente. Segunda observacion que se constata es en el segundo for y dentro de la condicion **"(int columna=1; columna < piso ; columna ++)"** aqui la parte **"columana < piso "** no esta bien porque normalmente tiene que parcourir el numero de columnas que son 6, entonces los mas adecuado seria declarar al igual que el anterior una variable estatico que se llame **NUMERO_COLUMNAS**.
+Y lo que esta dentro del system como explicado antes es el que se encargar de imprimir la escena parcurriendo los bucles y imprime en funcion de los pisos y columnas.
+ 
 ---
 
 ## Pregunta 4
