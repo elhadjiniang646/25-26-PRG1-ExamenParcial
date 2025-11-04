@@ -168,6 +168,8 @@ System.out.println(
 ```
 
 ¿Qué observas en este código?
+En este codigo se observa el uso del System para imprimir la parte baja del hotel pero esta mal implementada, lo bueno seria crear una condicion que immprima esta base del hotel como **"if(piso == 7 ){ ..,}"**,
+y la ultima linea deberia ser declarada aparte.
 
 ---
 
