@@ -56,6 +56,9 @@ for (int i = 0; i <= horasTotales; i++) {
 ```
 
 ¿Qué observas en este código?
+En este codigo se oberva que dos bucles y el bucle if esta dentro del for, yo habia implementado este codigo para, primero imprimir la ventana si esta abierta o cerrada dependiendo de su probabilidad despues hay el bucle if que habia implementado para programar la hora, hacer de tal manera que cuando la hora se a igual a 24 se reinicie empezando de 1 y que el dia suba 1. Pero la implementacion no es correcta porque mas adelante que al imprimir no se imprime bien, entonces una buena implementacion seria usar bucles for para cada una el asi : **"for(int dia = 1; dia < 7; dia ++){for(int hora =1; hora <24 ; hora ++) }"** y las variables ***abierta** y ***encendida***
+dentro del bucle hora.
+
 
 
 ---
